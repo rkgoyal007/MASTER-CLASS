@@ -7,3 +7,14 @@
     color:#5E5E5E;
     text-align: center;
   }
+
+  .carousel-item{
+    height: 700px;
+} 
+.carousel-item img{
+    height: 700px;
+}
+
+body {
+  margin-top: 100px;
+}
