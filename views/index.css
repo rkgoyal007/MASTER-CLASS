@@ -1,12 +1,20 @@
+.nav-item:hover{
+  background-color:#00acee;
+}
+
+.navbar{
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
 .page-footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:#EDF8FE;
     color:#5E5E5E;
     text-align: center;
-  }
+}
 
   .carousel-item{
     height: 700px;
@@ -18,3 +26,21 @@
 body {
   margin-top: 100px;
 }
+
+.slogan {
+  width: 400px;
+  height: 450px;
+  border: none;
+  font-family: sans-serif;
+  text-align: left ;
+}
+
+.card-group{
+  margin: 2.9rem ;
+}
+
+.card-img-top{
+  width:20rem;
+  height:10rem;
+}
+
