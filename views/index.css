@@ -1,7 +1,6 @@
 .nav-item:hover{
   background-color:#00acee;
 }
-
 .navbar{
   width: 100%;
   position: absolute;
@@ -28,8 +27,8 @@ body {
 }
 
 .slogan {
-  width: 400px;
-  height: 450px;
+  width: 800px;
+  height: 500px;
   border: none;
   font-family: sans-serif;
   text-align: left ;
