@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>login</title>
+	<title>signup</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -15,16 +15,29 @@
 		<div class="login-content">
 			<form action="index.html">
 				<img src="avatar.svg">
-				<h2 class="title">Login to your account</h2>
+				<h2 class="title" style="font-size: 30px; font-weight: bold;">Create your account</h2>
+				<a style="text-align: right;">Already have an account?</a>
+				<a href="login.html">Login</a>
            		<div class="input-div one">
            		   <div class="i">
-           		   		<i class="fas fa-envelope"></i>
+           		   		<i class="fas fa-user"></i>
            		   </div>
            		   <div class="div">
-           		   		<h5>Email</h5>
+           		   		<h5>Username</h5>
            		   		<input type="text" class="input">
            		   </div>
-           		</div>
+				   </div>
+				   
+				   <div class="input-div one">
+					<div class="i">
+							<i class="fas fa-envelope"></i>
+					</div>
+					<div class="div">
+							<h5>Email</h5>
+							<input type="text" class="input">
+					</div>
+				 </div>
+
            		<div class="input-div pass">
            		   <div class="i"> 
            		    	<i class="fas fa-lock"></i>
@@ -34,8 +47,7 @@
            		    	<input type="password" class="input">
             	   </div>
             	</div>
-            	<a href="#">Forgot Password?</a>
-            	<input type="submit" class="btn" value="Login">
+            	<input type="submit" class="btn" value="Signup">
             </form>
         </div>
     </div>
